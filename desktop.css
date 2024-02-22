@@ -45,9 +45,9 @@
 
 .header-contact{
     text-align: right;
-    margin-bottom: -1%;
-  margin-top: 1%;
-  margin-right: 10%;
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-bottom: 0%;
     
 }
 
@@ -276,7 +276,7 @@
 }
 
 .section3-clm1-content{
-    margin-left: 35%;
+    margin-left: 55%;
 
 }
 
@@ -316,14 +316,339 @@
 
 .section4-body-div{
     margin-top: 3%;
+    margin-bottom: 10%;
 }
 
-.section4-body-content-row{
+.section4-body-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
+
 
 .section4-body-content-pic{
+    width: 20%;
     border: 2px solid #dddd;
     padding: 5px;
+    margin: 2%;
+}
+
+
+/* section4 end*/
+
+/* section5 start*/
+
+.section5-body-row-content{
+    display: flex;
+    margin-top: 5%;
+}
+
+.section5-body-row-content-clm{
+    width: 50%;
+}
+
+.section5-pic{
+    height: 450px;
+    width: 450px;
+    margin-left: 5%;
+}
+
+.section5-pic-right{
+    height: 450px;
+    width: 450px;
+
+}
+
+.section5-body-end-details-div{
+    margin-top: 24%;
+    margin-left: 10%;
+    margin-right: 20%;
+
+}
+
+.section5-body-details-div{
+    margin-top: 24%;
+    margin-right: 15%;
+}
+
+.section5-body-details-header >h2{
+    font-size: 28px;
+    color: #394b59;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.section5-body-details >p{
+    font-size: 18px;
+    color: #484848;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: justify;
+}
+
+
+/* section5 end*/
+
+/* section6 start*/
+
+.section6{
+    margin-top: 10%;
+    height: 1000px;
+}
+
+.section6-container{
+    margin-top: 5%;
+}
+
+.section6-clm1{
+    width: 33%;
+    float: left;
+}
+
+
+.section6-card{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.section6-card-header{
+    background-color: #00AEEF;
+    padding: 2%;
+    border-radius: 10px 10px 0 0;
+}
+
+.section6-card-header > h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.section6-sub-card-header{
+    width: 100%;
+    background-color: green;
+    padding: 1%;
+}
+
+.price-btn-box-footer{
+    text-align: center;
+    padding: 15%;
+    margin-top: 8%;
+}
+
+.price-btn{
+    background: #00AEEF;
+    color: #fff;
+    transition: .3s;
+    padding: 12px 40px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 1px 1px 16px -4px black;
+    text-decoration: none;
+}
+
+.price-btn:hover{
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.section6-priceing-box{
+    color: #fdfdfd;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+    width: 140px;
+    height: 140px;
+    background-color: #ff6633;
+    padding: 0px 10px;
+    padding-top: 10%;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+
+/* section6 end*/
+
+/* section7 start*/
+
+
+.section7-container{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    background: linear-gradient(#e66465, #9198e5);
+    position: relative;
+}
+
+.section7-btn-div{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+
+.section7-btn-div >button{
+    width: 200px;
+    height: 65px;
+    border-radius: 15px;
+    background-color: #00cc66;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+
+.section7-btn-div >button:hover{
+    background-color: tomato;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.section7-details-div{
+    position: absolute;
+    margin-left: 27%;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-right: 5%;
+}
+
+
+.section7-details-div >a{
+    font-weight: bold; 
+    color: white
+}
+
+
+.section7-details-div >a:hover{
+    color: #00cc66;
+    text-decoration: none;
+}
+
+
+/* section7 end*/
+
+/* footer start*/
+
+.footer{
+    background-color: #e9e9e9;
+    padding: 50px;
+    margin-top: 5%;
+    
+}
+
+.footer-container{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.footer-row{
+    display: flex;
+    font-size: medium;
+}
+
+.footer-row-clm1{
+    width: 25%;
+}
+
+.footer-row-clm1-info{
+    margin-left: 25%;
+}
+
+.footer-logo{
+    width: 250px;
+    height: 130px;
+    margin-bottom: -10px;
+    margin-left: -12%;
+    margin-top: -10%;
+}
+
+.footer-row-clm1-info>p>a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-row-clm1-info>p>a:hover{
+    color: #1bbc9b;
+}
+
+
+.footer-social-li{
+    display: inline-block;
+}
+
+
+.fa-icon{
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10%;
+    transition: all linear .2s;
+}
+
+.fa-icon:hover{
+    border-radius: 50%;
+}
+
+.footer-row-mid-clm{
+    width: 16.66667%;
+    margin-left: 3%;
+
+}
+
+.footer-clm-header{
+    position: relative;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-clm-header::after{
+    content: '';
+    width: 34px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 2px solid #1bbc9b;
+
+}
+
+.footer-row-mid-clm-container{
+    margin-top: 12%;
+}
+
+.footer-clm-text>a{
+    color: #222222;
+    line-height: 30px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-clm-text>a:hover{
+    color: #1bbc9b;
+    text-decoration: none;
+}
+
+.footer-row-clm5{
+    width: 25%;
+}
+
+.footer-row-clm5-container{
+    margin-top: 8%;
+    text-align: center;
+}
+
+
+.footer-row-2-container{
+    margin-top: 2%;
+    text-align: center;
 }
