@@ -82,9 +82,11 @@
 }
 
 
+.nav-menu-list-div{
+    margin-right: 4%;
+}
 
 .nav-manu-list1{
-    margin-right: 4%;
     font-size: 12px;
     text-decoration: none;
     color: black;
