@@ -52,13 +52,13 @@
 }
 
 .whatsapp-number{
+    color: black;
     text-decoration: none; 
-    color: black; 
     font-weight: bold;
 }
 
 .whatsapp-number:hover{
-    color: #3eb489;
+    color: tomato;
     text-decoration: none;
 }
 
@@ -445,7 +445,7 @@
 
 .section6{
     margin-top: 10%;
-    height: 1000px;
+    height: 1250px;
 }
 
 .section6-container{
